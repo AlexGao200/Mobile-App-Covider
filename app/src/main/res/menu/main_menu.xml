@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_loggedin_group"
+        android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/menu_my_info_item"
+                android:title="@string/my_info" />
+
+
+        <item
+            android:id="@+id/menu_form_item"
+            android:title="@string/daily_health_form" />
+
+        <item
+                android:id="@+id/menu_checkin_item"
+                android:title="@string/building_checkin_form"/>
+
+        <item
+            android:id="@+id/menu_building_item"
+            android:title="@string/building" />
+
+        <item
+            android:id="@+id/menu_map_item"
+            android:title="@string/map" />
+
+        <item
+            android:id="@+id/menu_courses_item"
+            android:title="@string/courses">
+
+        </item>
+
+
+        <item
+            android:id="@+id/menu_add_course_item"
+            android:title="@string/add_course" />
+
+        <item
+            android:id="@+id/menu_logout_item"
+            android:title="@string/logout" />
+
+    </group>
+</menu>
